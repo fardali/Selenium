@@ -1,0 +1,16 @@
+FormSendTest.java
+ FormSendTest
+LogoutResultPage.java
+ LogoutResultPage
+PageBase.java
+ PageBase
+Logout.java
+ Logout
+SearchResultPage.java
+ SearchResultPage
+SearchTest.java
+ SearchTest
+SendFormResultPage.java
+ SendFormResultPage
+AvitoSeleniumTest.java
+ AvitoSeleniumTest
