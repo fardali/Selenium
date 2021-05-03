@@ -1,11 +1,15 @@
 ContactConfirmationPage.java
  ContactConfirmationPage
+LoginResultPage.java
+ LoginResultPage
 LogoutResultPage.java
  LogoutResultPage
+LoginTest.java
+ LoginTest
 PageBase.java
  PageBase
-AvitoSeleniumTest.java
- AvitoSeleniumTest
+Logout.java
+ Logout
 SearchResultPage.java
  SearchResultPage
 SearchTest.java
@@ -16,5 +20,5 @@ ContactTest.java
  ContactTest
 SendFormResultPage.java
  SendFormResultPage
-Logout.java
- Logout
+AvitoSeleniumTest.java
+ AvitoSeleniumTest

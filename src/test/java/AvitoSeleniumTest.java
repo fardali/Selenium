@@ -68,7 +68,7 @@ public class AvitoSeleniumTest {
         //--------------------------------- registration test -------------------------------------------------------------------
 
         RegisterTest formSend = new RegisterTest(this.driver);
-        SendFormResultPage sfrp = formSend.fillFormAndSend(name,"06"+phone,email); //after running tests twice change the phone number to a random phone number starting with 06XXXXXXXX and a random email
+        SendFormResultPage sfrp = formSend.fillFormAndSend(name,"06"+phone,email);
         String msg = sfrp.getRegistrationConfirmation();
         //Assert.assertEquals("Vous avez quelque chose à vendre?",msg);
         //----------------------------------- logout test-----------------------------------------------------------
@@ -76,6 +76,20 @@ public class AvitoSeleniumTest {
         LogoutResultPage lorp = logout.logout(); // logout testing 
         String lmsg = lorp.getLogoutConfirmation();
         Assert.assertEquals("Connexion",lmsg);
+
+        //------------------------------login test ----------------------------------------------------------------------
+
+        LoginTest login = new LoginTest(this.driver);
+        LoginResultPage lrp = login.login();
+        String mes =lrp.getLoginConfirmation();
+        //Assert.assertEquals("Vous avez quelque chose à vendre?",mes);
+        //----------------------------------- logout test 2-----------------------------------------------------------
+        Logout logout2 = new Logout(this.driver);
+        LogoutResultPage lorp2 = logout2.logout(); // logout testing 
+        String lmsg2 = lorp2.getLogoutConfirmation();
+        Assert.assertEquals("Connexion",lmsg2);
+
+
 
     }
     
