@@ -1,16 +1,20 @@
-FormSendTest.java
- FormSendTest
+ContactConfirmationPage.java
+ ContactConfirmationPage
 LogoutResultPage.java
  LogoutResultPage
 PageBase.java
  PageBase
-Logout.java
- Logout
+AvitoSeleniumTest.java
+ AvitoSeleniumTest
 SearchResultPage.java
  SearchResultPage
 SearchTest.java
  SearchTest
+RegisterTest.java
+ RegisterTest
+ContactTest.java
+ ContactTest
 SendFormResultPage.java
  SendFormResultPage
-AvitoSeleniumTest.java
- AvitoSeleniumTest
+Logout.java
+ Logout
